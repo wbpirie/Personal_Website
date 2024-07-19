@@ -1,5 +1,41 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaLT-Book.woff2') format('woff2'),
+         url('../fonts/FuturaLT-Book.woff') format('woff'),
+         url('../fonts/FuturaLT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaLT-Bold.woff2') format('woff2'),
+         url('../fonts/FuturaLT-Bold.woff') format('woff'),
+         url('../fonts/FuturaLT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaLT-Oblique.woff2') format('woff2'),
+         url('../fonts/FuturaLT-Oblique.woff') format('woff'),
+         url('../fonts/FuturaLT-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaLT-Light.woff2') format('woff2'),
+         url('../fonts/FuturaLT-Light.woff') format('woff'),
+         url('../fonts/FuturaLT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Futura', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -38,4 +74,21 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery figure {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
 }

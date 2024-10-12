@@ -3,38 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William B. Pirie's Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>William B. Pirie's Projects</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .project-category {
+            border: 1px solid #333;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .project-category h2 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            </div>
             <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="projects/index.html">Projects</a></li>
-                <li><a href="music/index.html">Music</a></li>
-                <li><a href="photography/index.html">Photography</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="../music/index.html">Music</a></li>
+                <li><a href="../photography/index.html">Photography</a></li>
+                <li><a href="../contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Projects</h1>
-<nav> 
-    <div>
-        <ul>
-            <li><a href="mach/index.html">MACH Liquid Bipropellant Rocket Engine</a></li>
-            <li><a href="cti/index.html">Cobra Redesign</a></li>
-            <li><a href="lr101/index.html">LR 101 Liquid Rocket Test</a></li>
-            <li><a href="synthsetup/index.html">Music Production Setup</a></li>
-        </ul>
-    </div>
+        <div class="project-category">
+            <h2>Aerospace Engineering</h2>
+            <ul>
+                <li><a href="mach/index.html" target="_blank">MACH Liquid Bipropellant Rocket Engine</a></li>
+                <li><a href="cti/index.html" target="_blank">Cobra Redesign</a></li>
+                <li><a href="lr101/index.html" target="_blank">LR 101 Liquid Rocket Test</a></li>
+            </ul>
+        </div>
+        <div class="project-category">
+            <h2>Music</h2>
+            <ul>
+                <li><a href="synthsetup/index.html" target="_blank">Music Production Setup</a></li>
+            </ul>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 William B. Pirie</p>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>
